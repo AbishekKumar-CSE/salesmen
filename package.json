@@ -124,9 +124,9 @@
     "typescript-config": "workspace:*"
   },
 "engines": {
-  "node": "24.x"
+  "node": "18.x"
 },
-  "packageManager": "pnpm@9.0.0",
+"packageManager": "pnpm@8.15.7",
   "private": true,
   "workspaces": [
     "packages/*"
