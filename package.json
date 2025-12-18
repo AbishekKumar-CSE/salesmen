@@ -123,9 +123,9 @@
     "tailwindcss": "^3.4.17",
     "typescript-config": "workspace:*"
   },
-  "engines": {
-    "node": ">=18.x"
-  },
+"engines": {
+  "node": "18.x"
+},
   "packageManager": "pnpm@9.0.0",
   "private": true,
   "workspaces": [
