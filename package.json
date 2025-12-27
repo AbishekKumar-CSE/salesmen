@@ -1,13 +1,12 @@
 {
   "name": "iso",
   "version": "7.6.2",
-  "packageManager": "pnpm@9.15.0",
   "description": "A nextjs template to build dashboard",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "lint": "next lint",
-    "build": "next build",
+    "build": "pnpm run build --filter=iso",
     "type:check": "tsc --noEmit",
     "start": "next start",
     "clean": "rm -rf node_modules .next .cache .turbo",
@@ -125,7 +124,6 @@
     "typescript-config": "workspace:*"
   },
   "engines": {
-    "node": "18.19.0",
-    "pnpm": "9.15.0"
+    "node": ">=18"
   }
 }
